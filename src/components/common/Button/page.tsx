@@ -10,7 +10,7 @@ const Button = ({ displayText, props }: Props) => {
 
   return (
     <button
-      className={`${props?.className} bg-slate-500 transition duration-150 ease-in-out  ml-5 text-orange-300 inline-block rounded-full bg-warning px-4 pb-1 pt-1.5 text-xs font-medium uppercase leading-normal `}
+      className={`${props?.className} bg-custom-brown transition duration-150 ease-in-out  ml-5 text-white inline-block hover:bg-custom-brown-light rounded-full bg-warning px-4 pb-1 pt-1.5 text-xs font-medium uppercase leading-normal `}
       {...props}
     >
       <span>{displayText}</span>

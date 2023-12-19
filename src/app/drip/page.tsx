@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Button from "@/components/common/Button/page";
 import Image from "next/image";
@@ -69,7 +69,7 @@ const Drip = () => {
       </div>
 
       <div className="p-4">
-        <h2 className="pt-2 pb-4">Saca el Maximo partido a tu cafe</h2>
+        <h2 className="pt-2 pb-4">Get the most out of your coffee</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eos
           dignissimos distinctio sint, beatae debitis tenetur cumque dolores,

@@ -11,9 +11,6 @@ const EXPRESS_COFFEE_OPTIONS = [
 const Home = () => {
   return (
     <div className="justify-center flex flex-col  max-w-screen p-2 ">
-      <BreakpointChecker />
-
-
       <MethodList />
 
       <div>
@@ -28,7 +25,7 @@ const Home = () => {
               key={opt.id}
               className="flex flex-col w-fit items-center p-10 cursor-pointer"
             >
-              <Link href='/drip'>
+              <Link href="/drip">
                 <Image src={opt.img} alt={opt.displayName} width={120} />
                 <span className="text-xs text-center pt-2">
                   {opt.helperText}

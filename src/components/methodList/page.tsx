@@ -39,7 +39,7 @@ const MethodList = () => {
       </div>
 
       <div className="p-6">
-        <div className=" rounded mt-6 p-14 bg-slate-400 grid lg:grid-cols-4 xl:grid-cols-5  grid-cols-2 sm:grid-cols-3 gap-8  place-items-center w-full max-w-screen">
+        <div className=" rounded mt-6 p-14 bg-custom-orange-light grid lg:grid-cols-4 xl:grid-cols-5  grid-cols-2 sm:grid-cols-3 gap-8  place-items-center w-full max-w-screen">
           {list.map((m) => (
             <MethodItem key={m.id} method={m} />
           ))}

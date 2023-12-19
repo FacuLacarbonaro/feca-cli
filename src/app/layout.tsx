@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Searchbar from "@/components/searchbar/page";
+import { ReduxProvider } from "@/store/provider";
 
 import "./globals.css";
 
@@ -19,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Searchbar helperText="Preparate un cafe" />
+        <ReduxProvider>
+          <Searchbar helperText="Preparate un cafe" />
 
-        {children}
+          {children}
+        </ReduxProvider>
       </body>
     </html>
   );
